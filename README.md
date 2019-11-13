@@ -6,7 +6,7 @@
 
 ## Functionality:
 
-GroupMeet seeks to provide an easy, all-in-one platform for school group projects. In past group projects we worked on (including one project in a previous term where we all worked together), we noticed a big challenge was figuring out when all our busy schedules aligned so that we could plan group meetings. We also found it could be unclear who was responsible for specific tasks, and it wasn’t always easy to see how much progress we had made and how much was left to do when coordinating many tasks between multiple people. From these problems, GroupMeet was born. In GroupMeet, users can input their schedule and submit it to the group calendar so group members can see when everyone is available to meet and thus easily plan group meetings. We also included functionality to manage and assign tasks to group members so it is clear what is being done and who is doing it. Finally, we added individual and group progress bars so group members can clearly see their progress, as well as how much has been done and is left to do for the group as a whole.
+GroupMeet seeks to provide an easy, all-in-one platform for school group projects. In past group projects I worked on (including one project in a previous term where I worked), I noticed a big challenge was figuring out when all busy schedules aligned so that I could plan group meetings. I also found it could be unclear who was responsible for specific tasks, and it wasn’t always easy to see how much progress I had made and how much was left to do when coordinating many tasks between multiple people. From these problems, GroupMeet was born. In GroupMeet, users can input their schedule and submit it to the group calendar so group members can see when everyone is available to meet and thus easily plan group meetings. I also included functionality to manage and assign tasks to group members so it is clear what is being done and who is doing it. Finally, I added individual and group progress bars so group members can clearly see their progress, as well as how much has been done and is left to do for the group as a whole.
 
 ## Contributions:
 
@@ -39,7 +39,7 @@ GroupMeet seeks to provide an easy, all-in-one platform for school group project
 
 ### Meteor vs. React/Redux
 
-We originally created our app with just React and Redux, but when we introduced Meteor, we realized the Redux state and the Meteor State were challenging each other.  Pages would flicker when they were loaded because Redux and Meteor would load at different speeds. We eventually fixed this issue by making our app wait to load until both states were fully initialized.
+I originally created this app with just React and Redux, but when we introduced Meteor, we realized the Redux state and the Meteor State were challenging each other.  Pages would flicker when they were loaded because Redux and Meteor would load at different speeds. We eventually fixed this issue by making our app wait to load until both states were fully initialized.
 
 ### CSS
 
@@ -47,7 +47,7 @@ CSS was a challenge because as we all worked on different components, we would c
 
 ### Responsive design
 
-We really wanted to make our app responsive, but since we were having so many issues with CSS that were mentioned above, we ultimately ran out of time to do so.
+I really wanted to make this app responsive, but since we were having so many issues with CSS that were mentioned above, we ultimately ran out of time to do so.
 
 ## Future Directions:
 
