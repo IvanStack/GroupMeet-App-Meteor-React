@@ -39,7 +39,7 @@ GroupMeet seeks to provide an easy, all-in-one platform for school group project
 
 ### Meteor vs. React/Redux
 
-I originally created this app with just React and Redux, but when we introduced Meteor, I realized the Redux state and the Meteor State were challenging each other.  Pages would flicker when they were loaded because Redux and Meteor would load at different speeds. We eventually fixed this issue by making our app wait to load until both states were fully initialized.
+I originally created this app with just React and Redux, but when I introduced Meteor, I realized the Redux state and the Meteor State were challenging each other.  Pages would flicker when they were loaded because Redux and Meteor would load at different speeds. I eventually fixed this issue by making our app wait to load until both states were fully initialized.
 
 ### CSS
 
