@@ -39,15 +39,15 @@ GroupMeet seeks to provide an easy, all-in-one platform for school group project
 
 ### Meteor vs. React/Redux
 
-I originally created this app with just React and Redux, but when we introduced Meteor, we realized the Redux state and the Meteor State were challenging each other.  Pages would flicker when they were loaded because Redux and Meteor would load at different speeds. We eventually fixed this issue by making our app wait to load until both states were fully initialized.
+I originally created this app with just React and Redux, but when we introduced Meteor, I realized the Redux state and the Meteor State were challenging each other.  Pages would flicker when they were loaded because Redux and Meteor would load at different speeds. We eventually fixed this issue by making our app wait to load until both states were fully initialized.
 
 ### CSS
 
-CSS was a challenge because as we all worked on different components, we would come together after and then notice things looked different on our different computer screens. This resulted in some headaches, which we solved by switching our CSS styling to use percentages instead of pixels.
+CSS was a challenge because as I all worked on different components, I would come together after and then notice things looked different on our different computer screens. This resulted in some headaches, which I solved by switching our CSS styling to use percentages instead of pixels.
 
 ### Responsive design
 
-I really wanted to make this app responsive, but since we were having so many issues with CSS that were mentioned above, we ultimately ran out of time to do so.
+I really wanted to make this app responsive, but since I were having so many issues with CSS that were mentioned above, I ultimately ran out of time to do so.
 
 ## Future Directions:
 
